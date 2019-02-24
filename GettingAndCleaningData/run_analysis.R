@@ -86,5 +86,5 @@ names(deviceSummary) <- gsub("mean", "Mean", names(deviceSummary))
 names(deviceSummary) <- gsub("std", "Stdev", names(deviceSummary))
 
 ## Summary output 
-formattable(deviceSummary)
+# formattable(deviceSummary)
 

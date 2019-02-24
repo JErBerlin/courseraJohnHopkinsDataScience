@@ -20,6 +20,7 @@
 ########################################.
 
 ## load libraries ####
+library(plyr)           # for data manipulation, f.ex. mapvalues()
 library(dplyr)          # for data manipulation
 require(formattable)    # for nice formatting of table views (not necessary for functionality)
 
@@ -87,4 +88,5 @@ names(deviceSummary) <- gsub("std", "Stdev", names(deviceSummary))
 
 ## Summary output 
 # formattable(deviceSummary)
+write.table(deviceSummary, file="tidyDF.txt", row.name=F)
 

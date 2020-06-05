@@ -18,4 +18,3 @@
 
 ### 5. Summarize 
 - grouping by subject, train/test and activity
-- 
